@@ -28,7 +28,7 @@ public class Solution {
             for(int i=0;i<3;i++){
                 String s1=sc.next();
                 int x=sc.nextInt();
-                System.out.println("%-15s%03d%n", s1, x)
+                System.out.println("%-15s%03d%n", s1, x);
                     /*
                     String and is left justified using exactly 15 characters. %-15s will remove the space
                     %03d will add 0 s to the integer such that it becomes a 3 digit number*/
