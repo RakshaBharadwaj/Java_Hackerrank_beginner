@@ -7,14 +7,14 @@ you must format and print the input to complete the solution.
 Input Format
 
 Every line of input will contain a String followed by an integer.
-Each String will have a maximum of  alphabetic characters,
-and each integer will be in the inclusive range from  to .
+Each String will have a maximum of 10 alphabetic characters,
+and each integer will be in the inclusive range from 0 to 999.
 
 Output Format
 
 In each line of output there should be two columns:
-The first column contains the String and is left justified using exactly  characters.
-The second column contains the integer, expressed in exactly  digits; if the original 
+The first column contains the String and is left justified using exactly 15 characters.
+The second column contains the integer, expressed in exactly 3  digits; if the original 
 input has less than three digits, you must pad your output's leading digits with zeroes.
 */
 
@@ -29,6 +29,9 @@ public class Solution {
                 String s1=sc.next();
                 int x=sc.nextInt();
                 System.out.println("%-15s%03d%n", s1, x)
+                    /*
+                    String and is left justified using exactly 15 characters. %-15s will remove the space
+                    %03d will add 0 s to the integer such that it becomes a 3 digit number*/
             }
             System.out.println("================================");
 
